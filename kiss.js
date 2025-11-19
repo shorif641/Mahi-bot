@@ -69,7 +69,7 @@ module.exports.run = async function({ api, event }) {
     // Make API request to generate the kiss image
     const response = await axios.get(KISS_API_URL, {
       params: {
-        image1: image1, // First image
+        image1: image1, // FirstPhoto image image
         image2: image2, // Second image
       },
       timeout: 10000
